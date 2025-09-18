@@ -1,24 +1,15 @@
-<form action="https://example.com" method="POST">
-	<label for="username">Username:</label>
-	<input type="text" id="username" name="username" value="名前" placeholder="名前を入力してください">
-
-	<label for="password">Password:</label>
-	<input type="password" id="password" name="password" value="パスワード" placehoder="パスワードを入力">
-
-	<p>性別を選択</P>
-	<label for="sex">Sex:</label>
-	<input type="radio" id="sex" name="sex" value="男" required>男
-	</label>
-
-	<label>
-	<input type="radio" name="sex" value="女" required>女
-	</label>
-	<br>
-
-	<label>
-		<input type="checkbox" name="subscribe" value="yes">ニュースレターを購読する
-	<label>
-	<br>
-
-	<input type="submit" value="送信">
+<form action="/submit" method="POST">
+<label for="feedback">フィードバック：</label>
+<div>
+<textarea id="feedback" name="feedback"  row="5" placeholder="フィールドバックをここに入力してください"></textarea>
+</div>
+<form>
+<label for="transport">交通手段を選択:</label>
+<select id="transport" name="transport">
+<option value="car">車</option>
+<option value="bicycle">自転車</option>
+<option value="train">電車</option>
+<option value="bus">バス</option>
+</select>
+<input type="submit" name="submit" value="送信">
 </form>
