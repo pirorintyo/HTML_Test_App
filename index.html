@@ -1,41 +1,24 @@
-<!DOCTYPE>
-<html lag="ja">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>footerタグの使い方</title>
-	</head>
-	<body>
-		<header>
-			<h1>私のウェブサイト</h1>
-			<nav>
-				<p>目次</p>
-				<ul>
-					<li><a href="#home">ホーム</a></li>
-					<li><a href="#about">私について</a></li>
-					<li><a href="#content">お問い合わせ</a></li>
-				</ul>
-			</nav>
-		</header>
-	<main>
-		<article>
-			<h2>セマンティックHTMLとは？</h2>
-			<p>セマンティックHTMLは、タグに意味を持たせてコンテンツをより構造化する方法である。</p>
+<form action="https://example.com" method="POST">
+	<label for="username">Username:</label>
+	<input type="text" id="username" name="username" value="名前" placeholder="名前を入力してください">
 
-			<aside>
-				<h2>用語解説</h2>
-				<p>セマンティックは、意味を持つという意味。</h2>
-			</aside>
-		</article>
+	<label for="password">Password:</label>
+	<input type="password" id="password" name="password" value="パスワード" placehoder="パスワードを入力">
 
+	<p>性別を選択</P>
+	<label for="sex">Sex:</label>
+	<input type="radio" id="sex" name="sex" value="男" required>男
+	</label>
 
-	</main>
+	<label>
+	<input type="radio" name="sex" value="女" required>女
+	</label>
+	<br>
 
-	<!--ページ全体のフッター -->
-	<footer>
-		<p><a href="privacy.html">プライバシーポリシー</a> | <a href="terms.html">利用規約</a><p>
-	</footer>
+	<label>
+		<input type="checkbox" name="subscribe" value="yes">ニュースレターを購読する
+	<label>
+	<br>
 
-	</body>
-</html>
-
+	<input type="submit" value="送信">
+</form>
