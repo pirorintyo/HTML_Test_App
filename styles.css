@@ -1,23 +1,39 @@
 html{
-	font-size:24px;
+	font-size:16;
 }
 
-h1{
+.back-blue{
+	background:blue;
+}
+
+.white{
 	color:white;
-	background-color:blue;
-	font-size:1rem;
 }
 
-h3{
-	background-color:rgb(0,100,0);
-	font-size:0.75rem;
+.yellow{
+	color:yellow;
 }
 
-p{
-	color:(000080);
-	font-size:0.5rem;
-}
-
-span{
+.red{
 	color:red;
 }
+
+.back-gray{
+	background:gray;
+}
+
+.back-green{
+	background:green;
+}
+
+.back-brown{
+	background:brown;
+}
+.blue{
+	color:blue;
+}
+
+#font{
+	font-size:0.55rem;
+}
+
