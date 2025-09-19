@@ -1,39 +1,23 @@
-html{
-	font-size:16;
+.content h2{
+	font-size:32px;
+	color:#6B8E23;
 }
 
-.back-blue{
-	background:blue;
+.content p{
+	font-size:20px;
+	color:#20B2AA;
 }
 
-.white{
-	color:white;
+.side  p.content h2{
+        font-size:32px;
+        color:#6B8E23;
 }
 
-.yellow{
-	color:yellow;
+.content p{
+        font-size:20px;
+        color:#20B2AA;
 }
 
-.red{
+.side h3 + p{
 	color:red;
 }
-
-.back-gray{
-	background:gray;
-}
-
-.back-green{
-	background:green;
-}
-
-.back-brown{
-	background:brown;
-}
-.blue{
-	color:blue;
-}
-
-#font{
-	font-size:0.55rem;
-}
-
