@@ -1,20 +1,14 @@
-h1{
-	font-size:32px;
-	color:white;
-	background-color:midnightblue;
-	text-align:center;
-}
-
-h3{
-	color:white;
-	background:deepskyblue;
-	height:50px;
-	line-height:50px;
-	text-align:center;
-}
-
 p{
 	color:white;
-	background:#3776AB;
+	background-color:#00008B;
+	width:160px;
 	text-align:center;
+	display:inline-block:
+	padding:10px 0;
+	margin-right:20px;
+	border-top:5px dotted yellow;
+	border-right:10px ridge yellow;
+	border-bottom: 10px ridge red;
+	border-left: 5px solid yellow;
+	
 }
