@@ -1,23 +1,29 @@
-.content h2{
-	font-size:32px;
-	color:#6B8E23;
+.today{
+	font-size: 20px;
 }
 
-.content p{
-	font-size:20px;
-	color:#20B2AA;
+.span{
+	background-color:#FFC0CB;
+	display : inline-block;
+	height :28px;
 }
 
-.side  p.content h2{
-        font-size:32px;
-        color:#6B8E23;
+.temperature{
+	background-color:#FFD8B2;
+	display: inline-block;
+	width:40px;
+	height:20px;
 }
 
-.content p{
-        font-size:20px;
-        color:#20B2AA;
+
+.humidity{
+	background-color:#ADD8E6;
+	display:inline-block;
+	width:40px;
+	height:20px;
 }
 
-.side h3 + p{
-	color:red;
+img{
+	display:block;
 }
+
