@@ -1,29 +1,20 @@
-.today{
-	font-size: 20px;
+h1{
+	font-size:32px;
+	color:white;
+	background-color:midnightblue;
+	text-align:center;
 }
 
-.span{
-	background-color:#FFC0CB;
-	display : inline-block;
-	height :28px;
+h3{
+	color:white;
+	background:deepskyblue;
+	height:50px;
+	line-height:50px;
+	text-align:center;
 }
 
-.temperature{
-	background-color:#FFD8B2;
-	display: inline-block;
-	width:40px;
-	height:20px;
+p{
+	color:white;
+	background:#3776AB;
+	text-align:center;
 }
-
-
-.humidity{
-	background-color:#ADD8E6;
-	display:inline-block;
-	width:40px;
-	height:20px;
-}
-
-img{
-	display:block;
-}
-
