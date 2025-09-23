@@ -1,21 +1,9 @@
-div{
-	display:grid;
-	grid-template-columns:repeat(3,1fr);
+input:focus{
+	outline-color:green;
+	background-color:#CCFFCC;
 }
 
-img{
-	width:200px;
-	height:200px;
-	object-fit:cover;
-	margin:10px;	
+button:hover{
+	background-color:#FFFFA8;
+	width:52px;
 }
-
-header{
-	color:white;
-	background-color:blue;
-	position:sticky;
-	top: 0;
-	opacity:0.6;
-}
-
-
