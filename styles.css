@@ -1,14 +1,38 @@
-img{
-	width:300px;
-	height:300px;
+body{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	gap:50px;
+}
+
+header{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:flex-end;
+}
+
+ul{
+	display:flex;
+	flex-direction:row;
+	gap:24px;
 }
 
 div{
-	box-sizing: border-box;
-	width:320;
-	height:360;
-	border:1px solid #800000;
-	display:inline-block;
+	color:white;
+	background-color:blue;
+	width:200px;
+	height:200px;
+	text-align:center;
+	line-height:200px;
 }
 
+main{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	grid-template-columns:repeat(5,200px);
+	justify-content:center;
+	gap:10px;
+}
 
