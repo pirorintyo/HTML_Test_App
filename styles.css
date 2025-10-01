@@ -1,9 +1,14 @@
-input:focus{
-	outline-color:green;
-	background-color:#CCFFCC;
+img{
+	width:300px;
+	height:300px;
 }
 
-button:hover{
-	background-color:#FFFFA8;
-	width:52px;
+div{
+	box-sizing: border-box;
+	width:320;
+	height:360;
+	border:1px solid #800000;
+	display:inline-block;
 }
+
+
