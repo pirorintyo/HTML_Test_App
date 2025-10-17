@@ -1,31 +1,4 @@
 # pironotest
 
-#example.pyのコード
-
-#1
-print("hello world")
-
-#2
-def greet():
-    print("こんにちは")
-
-greet()
-
-#3
-def print_name(name):
-    print(f"私の名前は{name}です")
-
-print_name("name")
-
-#4
-def get_greet():
-    return "おはようございます"
-
-print(get_greet())
-
-#5
-def add(a,b):
-    return a+b
-
-print(add(int(input()),int(input())))
-#fin
+#デモ動画
+[loomでみる](https://www.loom.com/share/ce8b90622f254a0994a659c827868539?sid=a5461e7a-30fd-49e9-865e-d3e6d630fb25)
