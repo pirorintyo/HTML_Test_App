@@ -1,9 +1,23 @@
 .introduction{
     color:red;
     background:black;
+    text-align:center;
 }
 
 .hobby{
     color:red;
     background: black;
+
 }
+
+.hobby li:hover{
+    color:red;
+    background:black;
+}
+
+.gallery{
+    width:200px;
+    height:auto;
+    margin:10px;
+}
+
