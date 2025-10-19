@@ -10,7 +10,7 @@
 
 }
 
-.hobby li:hover{
+.ul li:hover{
     color:red;
     background:black;
 }
